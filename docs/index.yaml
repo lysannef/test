@@ -1,0 +1,32 @@
+apiVersion: v1
+entries:
+  ibm-node-red-dev:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-12-05T22:40:45.205840855-08:00
+    description: A visual tool for wiring the Internet of Things system.
+    digest: 8e176a8176e34bf87707aec309da389b54e2f89f766810f6acf76ee12c58a243
+    engine: gotpl
+    home: http://nodered.org/
+    icon: https://raw.githubusercontent.com/ppc64le/charts/master/logo/node-red.png
+    keywords:
+    - node-red
+    - IOT
+    - watson
+    - Limited
+    - ppc64le
+    - Tools
+    - ICP
+    - Beta
+    kubeVersion: '>=1.7.0'
+    maintainers:
+    - email: smohite@us.ibm.com
+      name: IBM ISV Team
+    name: ibm-node-red-dev
+    sources:
+    - https://github.com/node-red/node-red
+    tillerVersion: '>=2.7.2'
+    urls:
+    - ibm-node-red-dev-0.1.0.tgz
+    version: 0.1.0
+generated: 2018-12-05T22:40:45.201570574-08:00
